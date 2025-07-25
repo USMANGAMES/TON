@@ -13,7 +13,7 @@ import os
 load_dotenv()
 
 # Загружаем токены
-TELEGRAM_BOT_TOKEN = '8251537818:AAEKFEK8yAnHnAo8Z0fwklbNIthWDR0t3yw'
+TELEGRAM_BOT_TOKEN = '8406350509:AAETYDxyUqJiamI3mUcFegns-726ioqf9ig'
 CMC_API_KEY = '3ca58bdc-75fc-4df9-9767-16287f7d1201'
 
 COINGECKO_API_KEY = "CG-CrGiNQVuiGemtqNUJFjhoP1F"
@@ -61,7 +61,7 @@ async def get_ton_price():
 # 📩 Команда /start
 @dp.message(Command("start"))
 async def start(message: Message):
-    await message.answer("👋 Привет! SAID \nНапиши /ton чтобы узнать цену Toncoin (TON)\n/chart чтобы увидеть график. \n/ton_predict - прогноз цены")
+    await message.answer("👋 Привет! Напиши \n/ton чтобы узнать цену Toncoin (TON).\n/chart чтобы увидеть график. \n/ton_predict - прогноз цены")
 
 # 💰 Команда /ton
 @dp.message(Command("ton"))
