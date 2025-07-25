@@ -61,7 +61,7 @@ async def get_ton_price():
 # 📩 Команда /start
 @dp.message(Command("start"))
 async def start(message: Message):
-    await message.answer("👋 Привет! \nНапиши /ton чтобы узнать цену Toncoin (TON)\n/chart чтобы увидеть график. \n/ton_predict - прогноз цены")
+    await message.answer("👋 Привет! SAID \nНапиши /ton чтобы узнать цену Toncoin (TON)\n/chart чтобы увидеть график. \n/ton_predict - прогноз цены")
 
 # 💰 Команда /ton
 @dp.message(Command("ton"))
