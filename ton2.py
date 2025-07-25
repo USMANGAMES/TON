@@ -20,10 +20,7 @@ COINGECKO_API_KEY = os.getenv('COINGECKO_API_KEY')
 
 
 # 🔐 Твои ключи
-TELEGRAM_BOT_TOKEN = '8406350509:AAETYDxyUqJiamI3mUcFegns-726ioqf9ig'
-CMC_API_KEY = '3ca58bdc-75fc-4df9-9767-16287f7d1201'
 
-COINGECKO_API_KEY = "CG-CrGiNQVuiGemtqNUJFjhoP1F"
 
 # 🤖 Создаём экземпляр бота и диспетчера
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
