@@ -13,10 +13,10 @@ import os
 load_dotenv()
 
 # Загружаем токены
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-CMC_API_KEY = os.getenv('CMC_API_KEY')
-COINGECKO_API_KEY = os.getenv('COINGECKO_API_KEY')
+TELEGRAM_BOT_TOKEN = '8406350509:AAETYDxyUqJiamI3mUcFegns-726ioqf9ig'
+CMC_API_KEY = '3ca58bdc-75fc-4df9-9767-16287f7d1201'
 
+COINGECKO_API_KEY = "CG-CrGiNQVuiGemtqNUJFjhoP1F"
 
 
 # 🔐 Твои ключи
