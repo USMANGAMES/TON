@@ -13,7 +13,7 @@ import os
 load_dotenv()
 
 # Загружаем токены
-TELEGRAM_BOT_TOKEN = '8406350509:AAETYDxyUqJiamI3mUcFegns-726ioqf9ig'
+TELEGRAM_BOT_TOKEN = '8251537818:AAEKFEK8yAnHnAo8Z0fwklbNIthWDR0t3yw'
 CMC_API_KEY = '3ca58bdc-75fc-4df9-9767-16287f7d1201'
 
 COINGECKO_API_KEY = "CG-CrGiNQVuiGemtqNUJFjhoP1F"
